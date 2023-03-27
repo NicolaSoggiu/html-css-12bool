@@ -1,0 +1,46 @@
+[class*="col"] {
+    height: 50px;
+    background-color: #006CFA;
+    border: 1px solid white;
+}
+
+[class*="col-offset"] {
+    border: 0;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-8, .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container-green {
+    width: calc(50% - 1rem);
+    height: 50px;
+    border: 1px solid white;
+    background-color: #006CFA;
+    flex-grow: 1;
+}
+
+.green {
+    background-color: #00E165;
+    border: 1px solid #006CFA;;
+    color: white;
+    height: 90%;
+}
+
+.row-green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title-offset {
+    margin-top: 1rem;
+}
+
+.space{
+    margin-top: 1.5rem;
+}
