@@ -1,3 +1,5 @@
+/* COL */
+
 [class*="col"] {
     height: 50px;
     background-color: #006CFA;
@@ -14,6 +16,8 @@
     align-items: center;
     color: white;
 }
+
+/* GREEN TABLE   */
 
 .container-green {
     width: calc(50% - 1rem);
@@ -36,6 +40,8 @@
     align-items: center;
     padding: 1rem;
 }
+
+/* H2 */
 
 .title-offset {
     margin-top: 1rem;
