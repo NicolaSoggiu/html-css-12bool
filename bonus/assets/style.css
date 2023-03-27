@@ -1,0 +1,13 @@
+body {
+    background-color: #1792CE;
+}
+
+.base {
+    height: 40px;
+    background-color: #FFD731;
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+}
